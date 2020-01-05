@@ -9,7 +9,7 @@ $(document).on 'click', 'form .remove_fields', (event) ->
 
 $(document).on 'click', 'form .add_fields', (event) ->
   time = new Date().getTime()
-  formatTime=d.getHours()+":"+d.getMinutes
+  #formatTime=d.getHours()+":"+d.getMinutes
   regexp = new RegExp($(this).data('id'), 'g')
-  $(this).before($(this).data('fields').replace(regexp, formatTime))
+  $(this).before($(this).data('fields').replace(regexp, time))
   event.preventDefault()
