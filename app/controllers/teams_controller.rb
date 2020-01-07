@@ -67,10 +67,10 @@ class TeamsController < ApplicationController
   def destroy
     if session[:user] == "admin"
       removed_team = Team.find_by_id(params[:admin][:id])
-      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password])
+      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email])
     elsif session[:user] == "instructor"
       removed_team = Team.find_by_id(params[:instructor][:id])
-      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password])
+      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:email])
     else
       flash[:warning] = "Unauthorized action"
       redirect_to home_path

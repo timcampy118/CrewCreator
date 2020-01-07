@@ -64,10 +64,10 @@ class SectionsController < ApplicationController
   def destroy 
     if session[:user] == "admin"
       @section = find_section(params[:id])
-      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password])
+      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email])
     elsif session[:user] == "instructor"
       @section = find_section(params[:id])
-      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password])
+      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:email])
     else
       flash[:warning] = "Unauthorized action"
       redirect_to home_path

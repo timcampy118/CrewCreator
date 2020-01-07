@@ -31,7 +31,7 @@ class InstructorsController < ApplicationController
     id = params[:id]
     @instructor_updating = Instructor.find(id)
     
-    if @current_user = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password]) || (session[:user] == "admin" && Admin.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password]))
+    if @current_user = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:email]) || (session[:user] == "admin" && Admin.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:email]))
       if @instructor_updating.update_attributes(instructor_params_edit)
         flash[:notice] = "#{@instructor_updating.email} -- #{@instructor_updating.name} was successfully updated."
         if session[:user] == "admin"
@@ -58,9 +58,9 @@ class InstructorsController < ApplicationController
   def destroy
     id = params[:id]
     if params[:admin]
-      password = params[:admin][:password]
+      password = params[:admin][:email]
     else
-      password = params[:instructor][:password]
+      password = params[:instructor][:email]
     end
     
     if session[:user] == "admin"
@@ -95,10 +95,10 @@ class InstructorsController < ApplicationController
   end
   
   private def instructor_params_create
-    params.require(:instructor).permit(:name, :email, :password, :password_confirmation)
+    params.require(:instructor).permit(:name, :email)
   end
   
   private def instructor_params_edit
-    params.require(:instructor).permit(:name, :email, :password)
+    params.require(:instructor).permit(:name, :email)
   end
 end

@@ -34,7 +34,7 @@ class StudentsController < ApplicationController
     id = params[:id]
     @student_updating = Student.find(id)
     
-    if @current_user = Student.find_by_id(session[:user_id]).try(:authenticate, params[:student][:email]) || (session[:user] == "admin" && Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email]))
+    if @current_user = Student.find_by_id(session[:user_id]).try(:authenticate, params[:student][:password]) || (session[:user] == "admin" && Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password]))
       if @student_updating.update_attributes(student_params_edit)
         flash[:notice] = "#{@student_updating.email} -- #{@student_updating.name} was successfully updated."
         redirect_to edit_student_path
@@ -58,7 +58,7 @@ class StudentsController < ApplicationController
     id = params[:id]
     
     removed_user = Student.find_by_id(id)
-    if Student.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email]) || session[:user] == "admin"
+    if Student.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password]) || session[:user] == "admin"
       Student.find_by_id(id).destroy
       if session[:user_id] == id
         flash[:notice] = "#{@current_user.email} -- #{@current_user.name} was successfully deleted. This was your account."
@@ -82,11 +82,11 @@ class StudentsController < ApplicationController
   end
   
   private def student_params_create
-    params.require(:student).permit(:name, :email)
+    params.require(:student).permit(:name, :email, :password, :password_confirmation)
   end
   
   private def student_params_edit
-    params.require(:student).permit(:name, :email)
+    params.require(:student).permit(:name, :email, :password)
   end
   
 end
