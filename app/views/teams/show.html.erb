@@ -79,10 +79,53 @@ table, th, td {
 </style>
 <body>
 
+<% if is_instructor_html() %>
 
-
-
+ 
 <table style="width:100%">
+  
+   <tr>
+    <th></th>
+    <th>Iteration 0</th>
+    <th>Iteration 1</th>
+    <th>Iteration 2</th>
+  </tr>
+  
+  <tr>
+    <th>Student</th>
+    <th>Missing</th>
+    <th>Missing</th>
+    <th>Missing</th>
+  </tr>
+    <tr>
+    <th>Instructor</th>
+    <th>    
+<body> 
+    <div> 
+        <select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Approved</option> 
+            <option value="1">Inadequate</option> 
+        </select>  
+    </div> 
+</body>
+    </th>
+    <th><select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Approved</option> 
+            <option value="1">Inadequate</option> 
+        </select>  </th>
+    <th><select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Approved</option> 
+            <option value="1">Inadequate</option> 
+        </select>  </th>
+  </tr>
+</table>
+
+<% else if is_student_on_team(current_user, @team) %>
+   
+   <table style="width:100%">
   
    <tr>
     <th></th>
@@ -114,31 +157,47 @@ table, th, td {
   </tr>
     <tr>
     <th>Instructor</th>
-    <th>    
-<body> 
-    <div> 
-        <select id="select">                                              
-            <option value="0">Missing</option> 
-            <option value="1">Approved</option> 
-            <option value="1">Inadequate</option> 
-        </select>  
-    </div> 
-</body>
+    <th>    Missing
     </th>
-    <th><select id="select">                                              
-            <option value="0">Missing</option> 
-            <option value="1">Approved</option> 
-            <option value="1">Inadequate</option> 
-        </select>  </th>
-    <th><select id="select">                                              
-            <option value="0">Missing</option> 
-            <option value="1">Approved</option> 
-            <option value="1">Inadequate</option> 
-        </select>  </th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+  </tr>
+</table>
+<% else %>
+
+   <table style="width:100%">
+  
+   <tr>
+    <th></th>
+    <th>Iteration 0</th>
+    <th>Iteration 1</th>
+    <th>Iteration 2</th>
+  </tr>
+  
+<tr>
+    <th>Student</th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+  </tr>
+    <tr>
+    <th>Instructor</th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
   </tr>
 </table>
 
 
-
-
-</div>
+  
+   
+<% end %>
+<% end %>
