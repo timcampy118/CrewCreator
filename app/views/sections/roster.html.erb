@@ -1,3 +1,7 @@
+
+
+<% if is_instructor_html() %>
+
 <h1 class="display-4 mt-4 ml-5">Class Roster: <%= @section.number %> - <%= @section.semester %> <%= @section.year %></h1>
 <%= link_to 'Cancel', section_projects_path(@section), id: 'cancel', :class => "btn btn-danger ml-5"%>
 
@@ -31,3 +35,32 @@
   <%= form.submit "Import CSV emails", :class => "btn btn-primary mt-4" %>
   <% end %>
 </div>
+
+
+
+
+
+<%else if is_student_in_section(current_user, @section)%>
+
+
+<h1 class="display-4 mt-4 ml-5">Class Roster: <%= @section.number %> - <%= @section.semester %> <%= @section.year %></h1>
+<%= link_to 'Cancel', section_projects_path(@section), id: 'cancel', :class => "btn btn-danger ml-5"%>
+
+<div class="jumbotron w-50 mx-auto">
+  <%= form_for @section, url: {action: "update_roster"}, method: :patch do |form| %>
+  
+    <%= render 'layouts/error', object: @section, as: 'object' %>
+  
+    <%= form.fields_for :emails do |builder| %>
+      <%= render 'email_fields', f: builder %>
+    <% end %>
+    <% end %>
+</div>
+
+
+</div>
+
+
+
+<%end%>
+<%end%>

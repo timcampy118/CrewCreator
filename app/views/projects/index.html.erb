@@ -17,6 +17,7 @@
 <% if is_student_in_section(current_user, @section) %>
   <p class="d-inline text-muted ml-4">Currently registered</p>
   <%= link_to 'Leave Section' , section_leave_path(@section), method: :patch, id: "leave_section_#{@section.number}" , class: "btn btn-danger float-right mt-5 mr-5" %>
+  <%= link_to 'Adjust Roster' , section_roster_path(@section), id: "roster_section_#{@section.number}" , class: "btn btn-success float-right mt-4 mr-5" %>
 <% end %>
 
 <hr>

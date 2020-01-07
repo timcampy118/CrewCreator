@@ -1,6 +1,6 @@
 class SectionsController < ApplicationController
-  before_action :super_access, only: [:new, :create, :edit, :update, :remove, :destroy, :roster, :update_roster]
-  before_action :is_student, only: [:join, :leave]
+  #before_action :super_access, only: [:new, :create, :edit, :update, :remove, :destroy, :roster, :update_roster]
+  before_action :is_student, only: [:new, :create, :edit, :update, :remove, :destroy, :roster, :update_roster]#[:join, :leave, :roster]
   
   def new
     @course = Course.find(params[:course_id])
