@@ -1,0 +1,2463 @@
+[33mcommit 24efab02d1d119974a8f0cf7cd49f227ee35b61c[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 12:40:25 2020 +0000
+
+    change scrum time to datetime because heroku doesnt like time
+
+[33mcommit 938d3abf6ede2b42696bf2c31ce42e963a6ff7af[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 12:29:09 2020 +0000
+
+    finished fixing scrum time
+
+[33mcommit d60725b6dd706da97effcb46ce9154425f1f15b4[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 11:54:19 2020 +0000
+
+    different view for progress bar depending on permission
+
+[33mcommit 6b880995e7876c774347b5799114fd25db66b765[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 02:45:42 2020 +0000
+
+    added google id to google user
+
+[33mcommit 41498011342aa7d50be97357217395cbdde4e9a0[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 02:31:32 2020 +0000
+
+    added google user and add info to table
+
+[33mcommit a6159e93f4f7fa41d54cccc29e59e353fe411845[m
+Merge: a11d735 c195196
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 02:25:18 2020 +0000
+
+    created team status table
+
+[33mcommit a11d73546a6d0fa654312bc088bcde4d7248a33c[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Tue Jan 7 02:24:41 2020 +0000
+
+    created team status table
+
+[33mcommit c195196a43e0442bc27d3dd1d0f0a9e408b0562f[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Tue Jan 7 02:22:08 2020 +0000
+
+    Force SSL
+
+[33mcommit 691532d712c7099c655d0f3b586ad1321933912f[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Mon Jan 6 03:54:38 2020 +0000
+
+    Removed bullets
+
+[33mcommit c54695987d3cd918e6aeb4299cadd35aa010206d[m
+Merge: 1fcd851 5e471a3
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Sun Jan 5 09:21:01 2020 +0000
+
+    merged google sign in
+
+[33mcommit 5e471a34d80e263c3fabdab621e3eda6dce0f105[m[33m ([m[1;31morigin/progress_bar[m[33m)[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Sun Jan 5 08:45:32 2020 +0000
+
+    basic progress bar, working on fixing time
+
+[33mcommit e0e9ae9d351f6fa48e885429c9d28268ae319a46[m
+Author: Timcampy118 <timothyn118@gmail.com>
+Date:   Sun Jan 5 08:15:59 2020 +0000
+
+    basic progress bar, working on fixing time
+
+[33mcommit 1fcd851acc050990123f548db1e07c1913a04d6a[m[33m ([m[1;31morigin/google-sign-in[m[33m)[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sun Jan 5 08:12:02 2020 +0000
+
+    Added Sign Out button
+
+[33mcommit 37afe8f0b094ec550ca22cfb50c7d20b60c0dcdf[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sun Jan 5 07:05:47 2020 +0000
+
+    New client ID
+
+[33mcommit 79ce3d8c410b07d15b0a16f08c328dd88bdb5b2d[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sun Jan 5 05:53:50 2020 +0000
+
+    Removed meta tag
+
+[33mcommit ed0704726f13c293f33dee60ae3f67bc058267f2[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:59:07 2020 +0000
+
+    Add meta tag
+
+[33mcommit c66f6aab25362255c95387b3303d30750e7b8f4c[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:53:57 2020 +0000
+
+    Removed meta tag
+
+[33mcommit ae1278fb037cf43e26cdb02ac46fa8a5ec21d978[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:50:14 2020 +0000
+
+    Moved site verification
+
+[33mcommit 40ec2b4470b438c771f142b53c30639911222836[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:35:54 2020 +0000
+
+    Verification tag
+
+[33mcommit 11aa2cffd1ab45c1538209fbf1c2a3a72dc62788[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:33:44 2020 +0000
+
+    Added verification tag
+
+[33mcommit ed1b1de0b2bca0ffa4ca37f18dfa7c898af17a47[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:25:34 2020 +0000
+
+    Added verification
+
+[33mcommit cf366e96bed9750469f88599cb1fbdc58bb65f09[m
+Author: Zheng Xiao <zwxxiao@gmail.com>
+Date:   Sat Jan 4 17:09:34 2020 +0000
+
+    Added Google Sign-In button
+
+[33mcommit c37cc8da032112db569483adecd996388716fcd0[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Tue Feb 26 16:21:30 2019 -0600
+
+    Staging (#84)
+    
+    * Added rubocop gem (#57)
+    
+    * Course refactoring (#58)
+    
+    * refactored create course cucumber
+    
+    * updated edit/create course form
+    
+    * Almost all tests for admins controller (#59)
+    
+    * Project rspec (#60)
+    
+    * Added project factories
+    
+    * Updated project controller rspec
+    
+    * Updated project rspec redirects
+    
+    * Updated course factory
+    
+    * Added basic CRUD rspec for projects
+    
+    * Added new skill redirection for project controller rspec
+    
+    * Course rspec (#61)
+    
+    * initial improvements to course rspecs
+    
+    * updated remove course cucumber
+    
+    * synced login function with course rpec
+    
+    * fixed cucumber mistakes
+    
+    * Adds student model with email validation across both admin and student accounts (#62)
+    
+    * Create teams (#63)
+    
+    * Added initial model and controller for teams
+    
+    * Started Teams CRUD
+    
+    * Added remove, show, and index for teams
+    
+    * Added team link validation, and create teams cucumber tests
+    
+    * Added edit and remove teams cucumber
+    
+    * added show cucumber tests for teams
+    
+    * Create teams (#64)
+    
+    * Added initial model and controller for teams
+    
+    * Started Teams CRUD
+    
+    * Added remove, show, and index for teams
+    
+    * Added team link validation, and create teams cucumber tests
+    
+    * Added edit and remove teams cucumber
+    
+    * added show cucumber tests for teams
+    
+    * added remove/destroy team controller rspec
+    
+    * Course cucumber (#65)
+    
+    * remove course feature added
+    
+    * fixed session redirect step definition
+    
+    * added edit course cucumber
+    
+    * Create student (#66)
+    
+    * create and login for students done
+    
+    * create student and student login integrated with current build
+    
+    * updated requests
+    
+    * updated spec helper
+    
+    * added student files
+    
+    * heroku Procfile updated
+    
+    * Adds an admin check for html
+    
+    * revert Procfile
+    
+    * stuff
+    
+    * Students update (#67)
+    
+    * Major bug fixes with read and update for students
+    
+    * Adds Remove/Delete student functionality
+    
+    * fix: seeds updated
+    
+    * Add roster (#69)
+    
+    * Added base for adding roster
+    
+    * Got emails to be added/removed from a section
+    
+    * Added email validation, added update_roster path
+    
+    * Fixed unqiue email deletion from roster
+    
+    * Cleaned up roster files
+    
+    * Added email model rspec
+    
+    * Added base edit roster cucumber
+    
+    * Added cucumber tests for roster
+    
+    * updated associations for studnet-> teams and students-> sections (#70)
+    
+    * Student team section association (#71)
+    
+    * updated associations for studnet-> teams and students-> sections
+    
+    * added the migration files
+    
+    * Students join (#72)
+    
+    * Added route for joining sections
+    
+    * Updated leaving a section, and roster changing emails
+    
+    * Remove student if email in roster changes
+    
+    * Added cucumber tests for join/leave sections
+    
+    * Added back/cancel links to most views (#73)
+    
+    * Unique Semesters (#75)
+    
+    * Factory bot setup for section rspec
+    
+    * Rspec tests for Section (without semester yet)
+    
+    * Added semester and year attributes to database and added Rspec tests for uniqueness for section number in scope of semester and year
+    
+    * Updated views and controller for semester and year attributes.
+    
+    * Modified form html for new course to include new section attributes
+    
+    * Fixed semester radio buttons in course form not being associated with section
+    
+    * Fixed section link to show year and semester
+    
+    * Updated Course steps to properly handle new section attributes semester and year by default to Spring and 2018. Testing fixes
+    
+    * Admin assigns students to teams (#74)
+    
+    * updated form to add students to teams if student exists
+    
+    * teams can now only add/remove students in their sections
+    
+    * added tests for admin assigning students to team
+    
+    * when admin remove student or updates roster students will be removed from team appropriately
+    
+    * Added students editing only teams their on
+    
+    * Section year/semester now unique inside course
+    
+    * Student dashboard (#76)
+    
+    * Admin dashboard base
+    
+    * Added semester search to home page
+    
+    * Added student dashboard
+    
+    * Add dashboard test, consolidated dashboard view
+    
+    * Added cucumber tests for admin/student dashboard
+    
+    * Crud instructor (#78)
+    
+    * Instructor model, migrations, and rspec
+    
+    * pending skill rspecs fixed
+    
+    * added instructor controller
+    
+    * Admin dashboard base
+    
+    * updated user type checking
+    
+    * CRUD instructor cucumber finished
+    
+    * instructor crud complete and added boostrap gem
+    
+    * instructor controller rspec: new, create, index, edit
+    
+    * instructor access to sections cucumber added
+    
+    * added instructor access tests for project and team
+    
+    * added instructor view to home dashboard
+    
+    * Style round one (#77)
+    
+    * Major CSS additions
+    
+    * Finished CSS styling
+    
+    * Resolved Cucumber bugs
+    
+    * Fixed cucumber tests
+    
+    * More cucumber fixes
+    
+    * Fixed admin Details
+    
+    * I hate gemfiles
+    
+    * Fixed routing rspec tests
+    
+    * Fixed cucumber tests
+    
+    * Style round two (#79)
+    
+    * Added CSS to instructors
+    
+    * Added home to navbar
+    
+    * completed fix (#80)
+    
+    * hotfix
+    
+    * Buttons for Instructor Cleanup (#81)
+    
+    * Removed section creation from course create
+    
+    * Removed buttons instr shouldn't see, removed blank links for routing
+    
+    * Team new/create now restricted to instr in section
+    
+    * Cleaned up inst section team check
+    
+    * Add instr section (#83)
+    
+    * Updated admin add instructor to section
+    
+    * only admins add instructor to sections
+    
+    * adjusted buttons, cleaned up instructor.rb, and added default option
+    
+    * Bulk add students Fixed (#85)
+    
+    * Updated model, controller, and view for bulk student add using SmarterCSV. Gemfile updated as well.
+    
+    * CSV form and processing updated
+    
+    * Email import successfully working. Working on verification with other section emails to prevent duplicates
+    
+    * Testing database validation: searching through section emails versus cross referencing total email database and section id
+    
+    * Added cross referencing between email id and section id. Roster auto update completed. TODO: CSV file validation
+    
+    * Updated file validation which prevents empty uploads and gives proper error message. TODO: Validate for CSV specifically
+    
+    * File validation finished. CSV file validation with flash notice completed, along with updated empty file upload prevention.
+    
+    * Duplicate email protection, fixed an error with different caps (convert to lower for all), comment cleanup.
+    
+    * Added CSV require statement to config/application.rb for section model file
+
+[33mcommit de93f129d08aa0c09d4a82b9c962131b7cb32f0e[m[33m ([m[1;33mtag: version4.0[m[33m)[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Wed Feb 20 17:21:30 2019 -0600
+
+    Iteration 4 (#82)
+    
+    * Added rubocop gem (#57)
+    
+    * Course refactoring (#58)
+    
+    * refactored create course cucumber
+    
+    * updated edit/create course form
+    
+    * Almost all tests for admins controller (#59)
+    
+    * Project rspec (#60)
+    
+    * Added project factories
+    
+    * Updated project controller rspec
+    
+    * Updated project rspec redirects
+    
+    * Updated course factory
+    
+    * Added basic CRUD rspec for projects
+    
+    * Added new skill redirection for project controller rspec
+    
+    * Course rspec (#61)
+    
+    * initial improvements to course rspecs
+    
+    * updated remove course cucumber
+    
+    * synced login function with course rpec
+    
+    * fixed cucumber mistakes
+    
+    * Adds student model with email validation across both admin and student accounts (#62)
+    
+    * Create teams (#63)
+    
+    * Added initial model and controller for teams
+    
+    * Started Teams CRUD
+    
+    * Added remove, show, and index for teams
+    
+    * Added team link validation, and create teams cucumber tests
+    
+    * Added edit and remove teams cucumber
+    
+    * added show cucumber tests for teams
+    
+    * Create teams (#64)
+    
+    * Added initial model and controller for teams
+    
+    * Started Teams CRUD
+    
+    * Added remove, show, and index for teams
+    
+    * Added team link validation, and create teams cucumber tests
+    
+    * Added edit and remove teams cucumber
+    
+    * added show cucumber tests for teams
+    
+    * added remove/destroy team controller rspec
+    
+    * Course cucumber (#65)
+    
+    * remove course feature added
+    
+    * fixed session redirect step definition
+    
+    * added edit course cucumber
+    
+    * Create student (#66)
+    
+    * create and login for students done
+    
+    * create student and student login integrated with current build
+    
+    * updated requests
+    
+    * updated spec helper
+    
+    * added student files
+    
+    * heroku Procfile updated
+    
+    * Adds an admin check for html
+    
+    * revert Procfile
+    
+    * stuff
+    
+    * Students update (#67)
+    
+    * Major bug fixes with read and update for students
+    
+    * Adds Remove/Delete student functionality
+    
+    * fix: seeds updated
+    
+    * Add roster (#69)
+    
+    * Added base for adding roster
+    
+    * Got emails to be added/removed from a section
+    
+    * Added email validation, added update_roster path
+    
+    * Fixed unqiue email deletion from roster
+    
+    * Cleaned up roster files
+    
+    * Added email model rspec
+    
+    * Added base edit roster cucumber
+    
+    * Added cucumber tests for roster
+    
+    * updated associations for studnet-> teams and students-> sections (#70)
+    
+    * Student team section association (#71)
+    
+    * updated associations for studnet-> teams and students-> sections
+    
+    * added the migration files
+    
+    * Students join (#72)
+    
+    * Added route for joining sections
+    
+    * Updated leaving a section, and roster changing emails
+    
+    * Remove student if email in roster changes
+    
+    * Added cucumber tests for join/leave sections
+    
+    * Added back/cancel links to most views (#73)
+    
+    * Unique Semesters (#75)
+    
+    * Factory bot setup for section rspec
+    
+    * Rspec tests for Section (without semester yet)
+    
+    * Added semester and year attributes to database and added Rspec tests for uniqueness for section number in scope of semester and year
+    
+    * Updated views and controller for semester and year attributes.
+    
+    * Modified form html for new course to include new section attributes
+    
+    * Fixed semester radio buttons in course form not being associated with section
+    
+    * Fixed section link to show year and semester
+    
+    * Updated Course steps to properly handle new section attributes semester and year by default to Spring and 2018. Testing fixes
+    
+    * Admin assigns students to teams (#74)
+    
+    * updated form to add students to teams if student exists
+    
+    * teams can now only add/remove students in their sections
+    
+    * added tests for admin assigning students to team
+    
+    * when admin remove student or updates roster students will be removed from team appropriately
+    
+    * Added students editing only teams their on
+    
+    * Section year/semester now unique inside course
+    
+    * Student dashboard (#76)
+    
+    * Admin dashboard base
+    
+    * Added semester search to home page
+    
+    * Added student dashboard
+    
+    * Add dashboard test, consolidated dashboard view
+    
+    * Added cucumber tests for admin/student dashboard
+    
+    * Crud instructor (#78)
+    
+    * Instructor model, migrations, and rspec
+    
+    * pending skill rspecs fixed
+    
+    * added instructor controller
+    
+    * Admin dashboard base
+    
+    * updated user type checking
+    
+    * CRUD instructor cucumber finished
+    
+    * instructor crud complete and added boostrap gem
+    
+    * instructor controller rspec: new, create, index, edit
+    
+    * instructor access to sections cucumber added
+    
+    * added instructor access tests for project and team
+    
+    * added instructor view to home dashboard
+    
+    * Style round one (#77)
+    
+    * Major CSS additions
+    
+    * Finished CSS styling
+    
+    * Resolved Cucumber bugs
+    
+    * Fixed cucumber tests
+    
+    * More cucumber fixes
+    
+    * Fixed admin Details
+    
+    * Fixed routing rspec tests
+    
+    * Fixed cucumber tests
+    
+    * Style round two (#79)
+    
+    * Added CSS to instructors
+    
+    * Added home to navbar
+    
+    * completed fix (#80)
+    
+    * Buttons for Instructor Cleanup (#81)
+    
+    * Removed section creation from course create
+    
+    * Removed buttons instr shouldn't see, removed blank links for routing
+    
+    * Team new/create now restricted to instr in section
+    
+    * Cleaned up inst section team check
+
+[33mcommit f7f288d1f208e9250ea93904791f02d6d0fea555[m[33m ([m[1;33mtag: version3.0[m[33m)[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Mon Jan 28 20:51:18 2019 -0600
+
+    Iteration #3 (#68)
+    
+    * Added rubocop gem (#57)
+    
+    * Course refactoring (#58)
+    
+    * refactored create course cucumber
+    
+    * updated edit/create course form
+    
+    * Project rspec (#60)
+    
+    * Added project factories
+    
+    * Updated project controller rspec
+    
+    * Updated project rspec redirects
+    
+    * Updated course factory
+    
+    * Added basic CRUD rspec for projects
+    
+    * Added new skill redirection for project controller rspec
+    
+    * Course rspec (#61)
+    
+    * initial improvements to course rspecs
+    
+    * updated remove course cucumber
+    
+    * synced login function with course rpec
+    
+    * Adds student model with email validation across both admin and student accounts (#62)
+    
+    * Create teams (#63)
+    
+    * Added initial model and controller for teams
+    
+    * Added remove, show, and index for teams
+    
+    * Added team link validation, and create teams cucumber tests
+    
+    * Added edit and remove teams cucumber
+    
+    * added show cucumber tests for teams
+    
+    * Create teams (#64)
+    
+    * Added initial model and controller for teams
+    
+    * Added remove, show, and index for teams
+    
+    * Added team link validation, and create teams cucumber tests
+    
+    * Added edit and remove teams cucumber
+    
+    * added show cucumber tests for teams
+    
+    * added remove/destroy team controller rspec
+    
+    * Course cucumber (#65)
+    
+    * remove course feature added
+    
+    * fixed session redirect step definition
+    
+    * added edit course cucumber
+    
+    * Create student (#66)
+    
+    * create and login for students done
+    
+    * create student and student login integrated with current build
+    
+    * updated requests
+    
+    * updated spec helper
+    
+    * added student files
+    
+    * Adds an admin check for html
+    
+    * Students update (#67)
+    
+    * Major bug fixes with read and update for students
+    
+    * Adds Remove/Delete student functionality
+    
+    * fix: seeds updated
+
+[33mcommit 25917d4219ebb3640c2cc612a7ae3e75e1473970[m[33m ([m[1;33mtag: version2.0[m[33m, [m[1;33mtag: Iteration_Two[m[33m)[m
+Merge: c9cf8da b4a38bf
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 17 08:25:55 2019 +0800
+
+    Merge pull request #56 from CrewCreator/staging
+    
+    Resolves minor feature bugs before iteration 2 meeting (#55)
+
+[33mcommit b4a38bf158188d44d8387aa510c16707b16dcfdf[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 17 07:43:54 2019 +0800
+
+    Resolves minor feature bugs before iteration 2 meeting (#55)
+
+[33mcommit c9cf8daeb381bafb8ef68590861d95dbdab3aeaa[m[33m ([m[1;33mtag: Version1.1[m[33m)[m
+Merge: ad230d4 3283e9b
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 10 12:20:24 2019 +0800
+
+    Merge pull request #54 from CrewCreator/staging
+    
+    Iteration 1.1 - Progress Presentation
+
+[33mcommit 3283e9b3b7539bc5bc6522d73e7202846e04e12c[m
+Merge: 96cad16 ad230d4
+Author: Nick <ntiner1@tamu.edu>
+Date:   Thu Jan 10 04:19:03 2019 +0000
+
+    Resolve merge conflicts
+
+[33mcommit 96cad16e241e7ab959c98afced77ab9d7dac31c9[m
+Author: Nick <ntiner1@tamu.edu>
+Date:   Thu Jan 10 03:55:52 2019 +0000
+
+    Removed .idea
+
+[33mcommit 289e8f24dd81c519088c61a773d0b5c05fedfffa[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Thu Jan 10 11:50:52 2019 +0800
+
+    refactored create course cucumber (#53)
+    
+    * refactored create course cucumber
+    
+    * started remove course feature
+
+[33mcommit c3687e0d9e20734e68aa68b37693c834db331026[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Thu Jan 10 11:36:05 2019 +0800
+
+    Added edit section (#52)
+    
+    * Added edit section and modified controller and cucumber file
+    
+    * Fixed edit_section_path redirect in update method
+    
+    * Fixed form and cucumber test
+
+[33mcommit 6d350516fa17de073cf755303112386deed549e5[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 10 11:18:55 2019 +0800
+
+    Adds cucumber test for the skills redirect (#51)
+
+[33mcommit fbd7340c9999a9e8ec2e2e18dfe26ad6c2db5ead[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Thu Jan 10 11:16:38 2019 +0800
+
+    Error template (#50)
+    
+    * Added error template
+    
+    * Updated skill form to form_for
+
+[33mcommit 4523d61e1fcb40f66a1b7bd65e38e7fb160ab303[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Thu Jan 10 11:03:38 2019 +0800
+
+    Delete section (#49)
+    
+    * Added delete section to projects page and new route
+    
+    * Added cucumber tests and updated paths for remove section
+
+[33mcommit 5f2dbcbbd30798a485dad617d3d0a9840a8ddb16[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 10 02:59:27 2019 +0000
+
+    Added link to home view
+
+[33mcommit 09efa1ace60eb885ca88a1f3195d1a82d241a395[m
+Merge: 75e9120 3150b57
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 10 02:29:43 2019 +0000
+
+    merge conflicts
+
+[33mcommit 75e9120193b675de0d6f64e3c9f7ccce0765fb62[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 10 02:27:05 2019 +0000
+
+    Adds redirect from skills to projects while maintaing form values
+
+[33mcommit 3150b57e8e265c1e3bc47948e6092695efd02df3[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Thu Jan 10 10:15:45 2019 +0800
+
+    Delete project (#48)
+    
+    * Added delete project, remove depedent destroy
+    
+    * Added dependent delete_all
+
+[33mcommit f66ac0c7944924be595a17d304b5aac955131798[m
+Author: Nick <ntiner1@tamu.edu>
+Date:   Thu Jan 10 02:09:10 2019 +0000
+
+    Fixes skill rspec and cucumber
+
+[33mcommit 79ddca5405220ea2bf384872180fc2d550e3efc9[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 10 10:02:02 2019 +0800
+
+    Added authentication in appropriate places (#45)
+
+[33mcommit ad62997b1308d51ceec58ce777e2672e1a163dfa[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Thu Jan 10 09:56:47 2019 +0800
+
+    Fix/admin features (#47)
+    
+    * all admin cucumber tests fixed
+
+[33mcommit 38d23212f333bb12d799a6d1285f45c0f2b500ab[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Thu Jan 10 09:44:50 2019 +0800
+
+    Changed id of add section link on course page and fixed final cucumber test (#46)
+
+[33mcommit 33430f58870693c7f73c6896411de249b70935f2[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Wed Jan 9 17:21:11 2019 +0800
+
+    Delete course (#44)
+    
+    * added confirm.html
+    
+    * Adds generalized confirm update and destroy forms
+    
+    * Course delete confirmation completed
+    
+    * fixed delete admin paths
+
+[33mcommit 5585d0061936580159b3a2a5df37128e02d74920[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Wed Jan 9 17:15:24 2019 +0800
+
+    Create admin (#42)
+    
+    * added confirm.html
+    
+    * Adds generalized confirm update and destroy forms
+    
+    * Adds automatic log-in after you create an account if not already logged in
+
+[33mcommit e560eecdcbd0920962a0bf285c3ae9a834dcfc90[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Wed Jan 9 17:09:29 2019 +0800
+
+    Edit project (#43)
+    
+    * Added project edit
+    
+    * Added cucumber tests for edit projects
+
+[33mcommit 5ae3c9c601d9ec69d0f255d71dd22f42f61b97ee[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Wed Jan 9 15:58:21 2019 +0800
+
+    Section cucumber (#41)
+    
+    * Fixed section cucumber, paths, rspec
+    
+    * minor format changes
+    
+    * Update create_section.feature
+    
+    * Update paths.rb
+    
+    * Updated paths and cucumber
+
+[33mcommit e9de162c27805c1a1b9babb313ffd372adaaa4d6[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Wed Jan 9 03:37:40 2019 +0000
+
+    update course rspecs
+
+[33mcommit 1f4db50dd600b45d9169fb6ff2359f8723a1194c[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Wed Jan 9 11:26:22 2019 +0800
+
+    Fixed course code tests (#39)
+
+[33mcommit 0fc1351bbcd65b68fb888e1ad4e6783618b2ff81[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Wed Jan 9 11:20:30 2019 +0800
+
+    Show course (#38)
+    
+    * ready for staging merge
+    
+    * update course working nicely
+
+[33mcommit e7e1ee5fbedc3f9c7e06f6ad77982b81c141092c[m
+Merge: 6158648 880de60
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Wed Jan 9 03:06:57 2019 +0000
+
+    merge conflicts
+
+[33mcommit 615864847b9012127271c3ce1ca7df0de6236855[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Wed Jan 9 03:06:18 2019 +0000
+
+    Resolves rspec error
+
+[33mcommit 880de602cf8a324766313ae9d2b5def52ff6b47e[m
+Merge: 5ffc025 f0701db
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Wed Jan 9 03:06:00 2019 +0000
+
+    fixed merge conflict
+
+[33mcommit 5ffc025070792ddaecede99dff6c7f675299b50a[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Wed Jan 9 03:05:12 2019 +0000
+
+    Accidental course update fixes
+
+[33mcommit 253a34a0bc91c0f70042960a60add022af7c0292[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Wed Jan 9 03:04:19 2019 +0000
+
+    Accidental course update fixes
+
+[33mcommit f0701db5aecf35dd9eb2981e9f0c2ff7e6b79051[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Wed Jan 9 10:57:55 2019 +0800
+
+    Project skills (#36)
+    
+    * Added projects and skills bi-directional association
+    
+    * Removed unneccesary accept attributes
+    
+    * Added skills in project form
+    
+    * Changed project skills to check boxes
+    
+    * Moved add skill button
+    
+    * Fixed cucumber tests for create project
+    
+    * Updated sections rspec course association
+    
+    * Removed comments
+    
+    * Updated project cucumber with skills and errors
+
+[33mcommit 8bd4332b548ff7214e48b286401654173567b9df[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Wed Jan 9 10:56:53 2019 +0800
+
+    Cleaned up HTML and error messages (#37)
+
+[33mcommit 7e115fed79c399326578e82a83f1b2ecc3fccbaa[m
+Merge: 28b4c7f 5472b19
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Wed Jan 9 02:04:35 2019 +0000
+
+    Merge branch 'staging' of https://github.com/CrewCreator/CrewCreator into staging
+
+[33mcommit 5472b1913bcbeffd28dd015f72b4db27782d0bdb[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Wed Jan 9 02:03:17 2019 +0000
+
+    Minor typos in cucumber tests
+
+[33mcommit 28b4c7fd6a2253d0089bb1f1b749604f599079b4[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Wed Jan 9 01:57:23 2019 +0000
+
+    adjusting views for update course
+
+[33mcommit 76b1e8cb96b0c81a3f88b71e0372fcc63ba3933e[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Wed Jan 9 09:47:59 2019 +0800
+
+    Create admin (#34)
+    
+    * Corrects mistakes made in cucumber tests to make 8 scenarios with 56 steps pass
+    
+    * Updates Gemfile.lock and adds project_params helper method to admins_controller
+    
+    * One unresolved merge conflict
+    
+    * Adds requirement for digit and symbol in passwords
+
+[33mcommit d63f37a2307bf100abb00f5643682ed1837361c7[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Wed Jan 9 09:47:40 2019 +0800
+
+    Remove admin (#35)
+    
+    * Fixed remove admin, still have errors with cucumber tests
+    
+    * Fixed Cucumber test errors
+
+[33mcommit 463a0e11bfa528ab7e008cc5babc7fc7ef505860[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Tue Jan 8 16:42:01 2019 +0000
+
+    skills cucumber tests working
+
+[33mcommit df7347b3aea84f338b21a7e5ddd27435c7df204f[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Tue Jan 8 16:28:02 2019 +0000
+
+    skill rspec tests working
+
+[33mcommit 87ba89da9939ea5a2bfb1d13ce71b1189b4dfe26[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Tue Jan 8 15:33:13 2019 +0000
+
+    create course cucumber tests green
+
+[33mcommit ac4101ce18d12552cbb4a447e1efaa226216d7c7[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Tue Jan 8 22:02:02 2019 +0800
+
+    Create course (#33)
+    
+    * Create course finished
+    
+    * Updated require params functions in course controller
+    
+    * Rails error messages
+    
+    * autosaving section
+
+[33mcommit 03a6f600d90c67d2362c975417897167d47ac0c7[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Tue Jan 8 21:12:21 2019 +0800
+
+    Associations (#31)
+    
+    * Added course section project associations
+    
+    * Added projects to each section
+    
+    * Moved form to _form
+
+[33mcommit 169e539c1be4cdf6b89a9d7c4db58856611a79e3[m
+Author: Lionell Loh Jian An <lionellloh@gmail.com>
+Date:   Tue Jan 8 20:49:18 2019 +0800
+
+    Feature/skills bdd (#29)
+    
+    * Create and Read
+    
+    * edited model for skills
+    
+    * CRUD + BDD
+
+[33mcommit c7f7835bc550d5feb7aebe0f4ab18eda98f7a626[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Tue Jan 8 03:29:19 2019 +0000
+
+    Fixed cucumber test typo
+
+[33mcommit 7a820b58249ddf9847c4b1ec4a6dc189ee4bf307[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Tue Jan 8 11:27:44 2019 +0800
+
+    Edit admin (#30)
+    
+    * Adds cucumber test forr edit_admin
+    
+    * Adds implementation for edit_admin Feature
+
+[33mcommit ad230d4a16e1a8c20e6f6dc71676754298bdc66e[m[33m ([m[1;33mtag: Iteration_One[m[33m)[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Tue Jan 8 00:32:06 2019 +0800
+
+    Iteration 1: Staging -> Master (#28)
+    
+    * Changed database from sqlite3 to postgress
+    
+    * Changed the database.yml to use postgres
+    
+    * updated gitignore
+    
+    * Updated database for production
+    
+    * fixed quote error
+    
+    * Updated database config for pg prod
+    
+    * Configured RSpec and Cucumber environments for testing
+    
+    * cucumber actually included
+    
+    * Cucumber working and dev deployed
+    
+    * Switches rspec to using rspec_with_rails (#6)
+    
+    * course validation complete
+    
+    * Adds gemfile Shoudla (#7)
+    
+    * Create project (#9)
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * Updated proper databse ignoring
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Initial model and rspec tests for Create Admin (#11)
+    
+    * removed extra migration lines
+    
+    * course validation complete (#8)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+    
+    * skill_spec file + skill.rb
+    
+    * Seed data set and course model outlined
+    
+    * Fixed unneeded fields on generate section command
+    
+    * Removed crewcreator_test db file
+    
+    * Create Section: fixed (#17)
+    
+    * Fixed unneeded fields on generate section command
+    
+    * Removed crewcreator_test db file
+    
+    * removed .ideal/*.xml files (#16)
+    
+    * Finished basic model validation with rspec testing
+    
+    * fixed some stuff
+    
+    * View courses -> index page configured
+    
+    * Started cucumber definitions
+    
+    * Add cucumber gems (#18)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Adds teh cucumber gems
+    
+    * Finished rspec tests for Admin model
+    
+    * Ran install of cucumber gems (#19)
+    
+    * Updated course_steps.rb
+    
+    * create class working
+    
+    * Create Course (minus Sections) working and tested
+    
+    * fixed hard-coded authenitcity token
+    
+    * Create course (#20)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+    
+    * Seed data set and course model outlined
+    
+    * fixed some stuff
+    
+    * View courses -> index page configured
+    
+    * Started cucumber definitions
+    
+    * Updated course_steps.rb
+    
+    * create class working
+    
+    * Create Course (minus Sections) working and tested
+    
+    * fixed hard-coded authenitcity token
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * updated procfile
+    
+    * Create course (#21)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+    
+    * Seed data set and course model outlined
+    
+    * fixed some stuff
+    
+    * View courses -> index page configured
+    
+    * Started cucumber definitions
+    
+    * Updated course_steps.rb
+    
+    * create class working
+    
+    * Create Course (minus Sections) working and tested
+    
+    * fixed hard-coded authenitcity token
+    
+    * testing session auth
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+    
+    * Create admin (#22)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Finished rspec tests for Admin model
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+    
+    * Resolves some mistakes in view files
+    
+    * Adds authentication to the course view
+    
+    * Create admin (#23)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Finished rspec tests for Admin model
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+    
+    * Resolves some mistakes in view files
+    
+    * Adds authentication to the course view
+    
+    * added flash and updated the existing cucumber tests
+    
+    * Started feature tests, setting up cucumber. Pre staging merge commit
+    
+    * Edits to authentication system
+    
+    * prepare for merge
+    
+    * Finishes is_admin authentication function
+    
+    * Added length and numericality check to model file and fixed cucumber feature file
+    
+    * adjusting admins steps
+    
+    * Adds login/logout links to every page
+    
+    * updated admin step definitions
+    
+    * Adds home page with better routing
+    
+    * changed redirect to home
+    
+    * adds route shortcuts
+    
+    * Adds header forcucumber tests
+    
+    * Ready for merge
+    
+    * Changed route on account creation
+    
+    * prep for merge - fixed create_admin.feature
+    
+    * Update to section files for testing
+    
+    * Create project (#24)
+    
+    * Create project
+    
+    * Removed uneeded db files
+    
+    * Moved project spec
+    
+    * Added format validation and shoulda methods gem
+    
+    * Project cucumber step one passed
+    
+    * Added project new form
+    
+    * Added project new view
+    
+    * Create project saves and redirects
+    
+    * Added scenerio index page to new page
+    
+    * Added difficulty to projects
+    
+    * Added sad path for projects
+    
+    * Update create_project.feature
+    
+    * Update create_project.feature
+    
+    * Minor fixes for syntax
+    
+    * Edit to admins routing
+    
+    * ready for merge
+    
+    * fixed typo
+    
+    * Minor updates to section files
+    
+    * merging with create_admin
+    
+    * Added section checkboxes to new course form
+    
+    * Added simple cov for coverage testing (#25)
+    
+    * added section association
+    
+    * Create admin (#26)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Finished rspec tests for Admin model
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+    
+    * Resolves some mistakes in view files
+    
+    * Adds authentication to the course view
+    
+    * added flash and updated the existing cucumber tests
+    
+    * Edits to authentication system
+    
+    * prepare for merge
+    
+    * Finishes is_admin authentication function
+    
+    * adjusting admins steps
+    
+    * Adds login/logout links to every page
+    
+    * updated admin step definitions
+    
+    * Adds home page with better routing
+    
+    * changed redirect to home
+    
+    * adds route shortcuts
+    
+    * Adds header forcucumber tests
+    
+    * Ready for merge
+    
+    * Changed route on account creation
+    
+    * prep for merge - fixed create_admin.feature
+    
+    * Edit to admins routing
+    
+    * ready for merge
+    
+    * fixed typo
+    
+    * Corrects mistakes made in cucumber tests to make 8 scenarios with 56 steps pass
+    
+    * Updates Gemfile.lock and adds project_params helper method to admins_controller
+    
+    * Create project auth (#27)
+    
+    * adds authentication for project#new operation
+    
+    * Added projects#create to authentication list
+    
+    * fixing routes
+    
+    * updating new course view
+    
+    * updating new course view
+    
+    * app running locally
+    
+    * fixed gemfile
+    
+    * Removed bundler required
+    
+    * Removed bundler required
+    
+    * Fixed ruby and bundler versions
+    
+    * Updated bundler requirements
+    
+    * fixed gemfile?
+    
+    * Resolves rspec errors
+    
+    * Removed unnecessary gem and its dependencies
+
+[33mcommit 0eca2476294a619dbd84af157268918cec3df818[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 16:30:28 2019 +0000
+
+    Removed unnecessary gem and its dependencies
+
+[33mcommit 2be94f8c35d8ee1547bc7e70f3c1eb8f47a31375[m
+Merge: ec3460c 92c8c08
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 16:22:49 2019 +0000
+
+    Resolving merge errors
+
+[33mcommit ec3460c4bcf012a30e6e868a55a5ef19f9c8d22a[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 16:20:32 2019 +0000
+
+    Resolves rspec errors
+
+[33mcommit 92c8c08fc612d54305be06d7d0e5a92e1298102f[m
+Merge: 57415de 2b14345
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 16:17:24 2019 +0000
+
+    fixed merge conflict
+
+[33mcommit 57415dee05f9658e649c07c45a53213fa59c649d[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 16:16:23 2019 +0000
+
+    fixed gemfile?
+
+[33mcommit 2b14345302c5bba8974cc6aac653f2c71847b92e[m
+Author: Nick <ntiner1@tamu.edu>
+Date:   Mon Jan 7 16:14:48 2019 +0000
+
+    Updated bundler requirements
+
+[33mcommit dfa85db2afbe8c7055f49bd38df5d0f138f9a68a[m
+Author: Nick <ntiner1@tamu.edu>
+Date:   Mon Jan 7 16:10:08 2019 +0000
+
+    Fixed ruby and bundler versions
+
+[33mcommit a2e24017e86f2ecbcbd2f42fe1b7b0828e343933[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 15:43:05 2019 +0000
+
+    Removed bundler required
+
+[33mcommit 9965d4833653e1b30ee31c82b22905f5bf1693bc[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 15:41:03 2019 +0000
+
+    Removed bundler required
+
+[33mcommit a62c9b7743286d0e2b168f6fca1a162b4acf31d9[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 15:39:05 2019 +0000
+
+    fixed gemfile
+
+[33mcommit 55fdac7295cf6e5994305ab22820411a3cf04239[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 15:25:54 2019 +0000
+
+    app running locally
+
+[33mcommit 17eb6cbd461261571a7e66c2a6b9e972582db625[m
+Merge: e51732a dc54258
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 15:20:31 2019 +0000
+
+    Fixed intial pull merge conflicts
+
+[33mcommit e51732ab4fd363eaa89eb82cdc5552412f296999[m
+Merge: dba905d ea6cc98
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 15:18:16 2019 +0000
+
+    Fixed merge conflicts
+
+[33mcommit dc542585d7b991092498f2ccb1041d213d0e3870[m
+Merge: ea6cc98 cefa5f6
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Mon Jan 7 22:59:15 2019 +0800
+
+    Merge branch 'master' into staging
+
+[33mcommit dba905dba1a2344a22be7a172bcdbc9c9308fde9[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 14:57:08 2019 +0000
+
+    updating new course view
+
+[33mcommit 4d85d946af3432cab0a4f5c95d2ac64d4f527e64[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 14:56:14 2019 +0000
+
+    updating new course view
+
+[33mcommit 01043edd0b0f89bc31eed3771fe98bfc540dda2f[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 14:20:18 2019 +0000
+
+    fixing routes
+
+[33mcommit ea6cc98c8f64851b248180b0ef9958ca99eb66de[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Mon Jan 7 17:17:20 2019 +0800
+
+    Create project auth (#27)
+    
+    * adds authentication for project#new operation
+    
+    * Added projects#create to authentication list
+
+[33mcommit e2be13cc8671abb331b4e68f119b0e4d53a849fa[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Mon Jan 7 16:54:17 2019 +0800
+
+    Create admin (#26)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Finished rspec tests for Admin model
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+    
+    * Resolves some mistakes in view files
+    
+    * Adds authentication to the course view
+    
+    * added flash and updated the existing cucumber tests
+    
+    * Edits to authentication system
+    
+    * prepare for merge
+    
+    * Finishes is_admin authentication function
+    
+    * adjusting admins steps
+    
+    * Adds login/logout links to every page
+    
+    * updated admin step definitions
+    
+    * Adds home page with better routing
+    
+    * changed redirect to home
+    
+    * adds route shortcuts
+    
+    * Adds header forcucumber tests
+    
+    * Ready for merge
+    
+    * Changed route on account creation
+    
+    * prep for merge - fixed create_admin.feature
+    
+    * Edit to admins routing
+    
+    * ready for merge
+    
+    * fixed typo
+    
+    * Corrects mistakes made in cucumber tests to make 8 scenarios with 56 steps pass
+    
+    * Updates Gemfile.lock and adds project_params helper method to admins_controller
+
+[33mcommit fc649d5f9bf8a417ccc6e7314f7cc18e7ddcac4e[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 08:35:43 2019 +0000
+
+    added section association
+
+[33mcommit a8dfff36bf181fb82717bea9a9f27980232e6829[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Mon Jan 7 16:23:01 2019 +0800
+
+    Added simple cov for coverage testing (#25)
+
+[33mcommit 6f26ca2ad2c62a74737ae5defb381fdc56f808dd[m
+Merge: 3edaf40 4268ad1
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:56:41 2019 +0000
+
+    fixed merge conflict with sections
+
+[33mcommit 3edaf4037bcef915938ecba68105287c6b69ae98[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:53:54 2019 +0000
+
+    Added section checkboxes to new course form
+
+[33mcommit afed96d4a09954b778fb323c38f9a3abcd223e66[m
+Merge: c93896b 4286d3d
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:47:24 2019 +0000
+
+    fixed merge conflict with create_admin
+
+[33mcommit c93896b769628f5a76248deb694df27da0d2896c[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:46:14 2019 +0000
+
+    merging with create_admin
+
+[33mcommit 4268ad1f041cd5e7b95b22c7ccb27a404b267177[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Mon Jan 7 07:32:33 2019 +0000
+
+    Minor updates to section files
+
+[33mcommit 4286d3dc44df018e83817701dd2142e1e12e35f8[m
+Merge: 5157c37 be51552
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:25:57 2019 +0000
+
+    merge conflict fixed + cucumber tests
+
+[33mcommit be515523bd6f7dc7a6097cbfc66fd5062f3fcad3[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 07:23:51 2019 +0000
+
+    fixed typo
+
+[33mcommit 5157c378daafca6ef3adf6f642ea00c90960d15e[m
+Merge: 6153923 f0fb618
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:22:06 2019 +0000
+
+    Merge branch 'create_admin' of https://github.com/CrewCreator/CrewCreator into create_admin
+
+[33mcommit 6153923c9e8b9fb0ac1b427973ecd3a996b71238[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 07:22:03 2019 +0000
+
+    ready for merge
+
+[33mcommit f0fb6189420b50d68b8dd076589fe3a9499f2435[m
+Merge: c80edd2 ec2c1e0
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 07:21:41 2019 +0000
+
+    fixed merge issues
+
+[33mcommit c80edd23cbf66ed56850a7eab354f42d28fa7f8f[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 07:20:07 2019 +0000
+
+    Edit to admins routing
+
+[33mcommit 9ca5d8b16df2bf94768170a08e628c05a0164906[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Mon Jan 7 03:33:52 2019 +0000
+
+    Minor fixes for syntax
+
+[33mcommit 383ab9b96a7fd4252073ccd5ab011f8de25255e4[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Mon Jan 7 11:31:33 2019 +0800
+
+    Create project (#24)
+    
+    * Create project
+    
+    * Removed uneeded db files
+    
+    * Moved project spec
+    
+    * Added format validation and shoulda methods gem
+    
+    * Project cucumber step one passed
+    
+    * Added project new form
+    
+    * Added project new view
+    
+    * Create project saves and redirects
+    
+    * Added scenerio index page to new page
+    
+    * Added difficulty to projects
+    
+    * Added sad path for projects
+    
+    * Update create_project.feature
+    
+    * Update create_project.feature
+
+[33mcommit 55667703a75b4edad258903c305b498e55333f4d[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Mon Jan 7 03:18:24 2019 +0000
+
+    Update to section files for testing
+
+[33mcommit ec2c1e0afe16d15e1118a360f9b46f9c42f2acda[m
+Merge: fcfca5d f375fec
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 03:18:06 2019 +0000
+
+    fixed merge conflict
+
+[33mcommit fcfca5d3e8b9422fb4a864258d23e824cbb6d142[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 03:17:07 2019 +0000
+
+    prep for merge - fixed create_admin.feature
+
+[33mcommit f375fecd27235b84a942563e3248f186dc40d936[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 03:16:12 2019 +0000
+
+    Changed route on account creation
+
+[33mcommit b9ce19769f1b5251708930e00cf2b1d257b4bb03[m
+Merge: 77b2e7f e201f93
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 03:03:57 2019 +0000
+
+    Merge branch 'create_admin' of https://github.com/CrewCreator/CrewCreator into create_admin
+
+[33mcommit 77b2e7f98d35641fa8180a28db6c8fe371e8edf9[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 03:03:55 2019 +0000
+
+    Ready for merge
+
+[33mcommit e201f9351a001ed54363162b7405021e75f64fae[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 03:03:26 2019 +0000
+
+    Adds header forcucumber tests
+
+[33mcommit 7ef4cef82414420aa77665290833831d0723ec2d[m
+Merge: 2368d32 80e46ec
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 03:00:14 2019 +0000
+
+    Merge branch 'create_admin' of https://github.com/CrewCreator/CrewCreator into create_admin
+
+[33mcommit 80e46ecc7dc0de0b35c7d991e16c224f84483170[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:57:36 2019 +0000
+
+    adds route shortcuts
+
+[33mcommit a1c3b8a4593ef2f468005b347659cdda380c320c[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:55:11 2019 +0000
+
+    changed redirect to home
+
+[33mcommit 2368d32d458784c9ecbb571aa6d5cec9f794a2d3[m
+Merge: 0d63103 a08276d
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 02:48:58 2019 +0000
+
+    Merge branch 'create_admin' of https://github.com/CrewCreator/CrewCreator into create_admin
+
+[33mcommit a08276d2ff1ca3bdd0632d49902fe4478f4aa38e[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:47:14 2019 +0000
+
+    Adds home page with better routing
+
+[33mcommit 0d631036f668df737e75df2fd8cc42c2dd92d043[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 02:39:59 2019 +0000
+
+    updated admin step definitions
+
+[33mcommit 8df46f125b7d62ed5dbc558b356457da803f9da9[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:23:39 2019 +0000
+
+    Adds login/logout links to every page
+
+[33mcommit e6405ca485017f874d77f784a9dd539866eeef02[m
+Merge: ba4e54f 78d0424
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 02:20:04 2019 +0000
+
+    Merge branch 'create_admin' of https://github.com/CrewCreator/CrewCreator into create_admin
+
+[33mcommit ba4e54fddce179d99a1424769d5dcbe9aa476892[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 02:20:00 2019 +0000
+
+    adjusting admins steps
+
+[33mcommit 78d04247c39f6f56873c278b9e90fe5ff2b3427e[m
+Merge: 6bf51b0 b1bf862
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:19:26 2019 +0000
+
+    Adjusted for merge errors
+
+[33mcommit b397a787e0d69929868cd8fc1d518d61f239d353[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Mon Jan 7 02:18:32 2019 +0000
+
+    Added length and numericality check to model file and fixed cucumber feature file
+
+[33mcommit 6bf51b0281ff5e12b4b4d91f7a09257d33797fe5[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:16:00 2019 +0000
+
+    Finishes is_admin authentication function
+
+[33mcommit b1bf862d49c6c42a1362e1b403f7b43ef5f4b016[m
+Merge: f84d6ef ceb9f4b
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 02:10:08 2019 +0000
+
+    fixed merge conflict
+
+[33mcommit f84d6ef4e408d37453f17053b1a2064e57cec942[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Mon Jan 7 02:08:27 2019 +0000
+
+    prepare for merge
+
+[33mcommit ceb9f4b45542beda5f560afe2737c007aee7f51e[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Mon Jan 7 02:07:55 2019 +0000
+
+    Edits to authentication system
+
+[33mcommit e11de1cbfed6a3ef5326c250b320b605c6d2425f[m
+Merge: fc6c508 e276f8c
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Mon Jan 7 01:51:59 2019 +0000
+
+    Merge staging into create_section
+
+[33mcommit fc6c5089f27bb0845a76453ecc2cc88f446329f1[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Mon Jan 7 01:38:32 2019 +0000
+
+    Started feature tests, setting up cucumber. Pre staging merge commit
+
+[33mcommit 32d3467665ea9ad65d7fd025069c71b0ad2482a8[m
+Merge: 424e75b d41a746
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 15:54:42 2019 +0000
+
+    Merge branch 'create_admin' of https://github.com/CrewCreator/CrewCreator into create_admin
+
+[33mcommit 424e75bfa0f755b470a4ee73760eb9259b464a02[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 15:54:36 2019 +0000
+
+    added flash and updated the existing cucumber tests
+
+[33mcommit e276f8cc20a3030f109a57fc6a0eb91f200d4c94[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Sun Jan 6 22:43:40 2019 +0800
+
+    Create admin (#23)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Finished rspec tests for Admin model
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+    
+    * Resolves some mistakes in view files
+    
+    * Adds authentication to the course view
+
+[33mcommit d41a746f52fb2b7aef7b23e8ba2042659f05461c[m
+Merge: badce47 0a3954e
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Sun Jan 6 22:43:32 2019 +0800
+
+    Merge branch 'staging' into create_admin
+
+[33mcommit badce47c15618076d85695dfe8cf585f0160ba9c[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Sun Jan 6 14:41:02 2019 +0000
+
+    Adds authentication to the course view
+
+[33mcommit 9b8f61d0bae21bd1faf038a742765fd2cdb4e2bb[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Sun Jan 6 14:39:25 2019 +0000
+
+    Resolves some mistakes in view files
+
+[33mcommit 0a3954e8dea4944c6971dd5676686575c792a370[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Sun Jan 6 22:35:50 2019 +0800
+
+    Create admin (#22)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Finished rspec tests for Admin model
+    
+    * Includes code and tests for create and index view and controller methods for an Admin
+    
+    * Adds changes for logging in using sessioning and a simple gem for authentication
+
+[33mcommit 10e7d2fb28a132661a9ba912769b1aff6d28c0ba[m
+Merge: 7427eb1 e360ce7
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Sun Jan 6 22:34:44 2019 +0800
+
+    Merge branch 'staging' into create_admin
+
+[33mcommit 7427eb1cd3c4bf6f7c4d1a0c4ddc3552c3c9e04e[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Sun Jan 6 14:29:47 2019 +0000
+
+    Adds changes for logging in using sessioning and a simple gem for authentication
+
+[33mcommit e360ce72e29ab14ae49da299bad7697cad956b92[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 14:22:00 2019 +0000
+
+    testing session auth
+
+[33mcommit 337ef17fd240ee83655dc5fed81d63f4981c8c1c[m
+Merge: 14d4e17 71df158
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 13:51:04 2019 +0000
+
+    Merge branch 'staging' of https://github.com/CrewCreator/CrewCreator into staging
+
+[33mcommit 71df15895f4618dfe93d093b38757f5c12e0864b[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Sun Jan 6 21:47:42 2019 +0800
+
+    Create course (#21)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+    
+    * Seed data set and course model outlined
+    
+    * fixed some stuff
+    
+    * View courses -> index page configured
+    
+    * Started cucumber definitions
+    
+    * Updated course_steps.rb
+    
+    * create class working
+    
+    * Create Course (minus Sections) working and tested
+    
+    * fixed hard-coded authenitcity token
+
+[33mcommit 14d4e1754dade33252f7f271717b6b583bba4596[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 13:46:52 2019 +0000
+
+    updated procfile
+
+[33mcommit 7147eb7d2316c5b1607199087c93e3496fb18347[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Sun Jan 6 13:39:04 2019 +0000
+
+    Includes code and tests for create and index view and controller methods for an Admin
+
+[33mcommit 6c388ce927e872bb883177ec809f620caa8a165f[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Sun Jan 6 21:27:42 2019 +0800
+
+    Create course (#20)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+    
+    * Seed data set and course model outlined
+    
+    * fixed some stuff
+    
+    * View courses -> index page configured
+    
+    * Started cucumber definitions
+    
+    * Updated course_steps.rb
+    
+    * create class working
+    
+    * Create Course (minus Sections) working and tested
+    
+    * fixed hard-coded authenitcity token
+
+[33mcommit ffcbccc963ef70e31927ad461fcbdd313b778695[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 13:26:31 2019 +0000
+
+    fixed hard-coded authenitcity token
+
+[33mcommit 10dd9412a0d268b8282d325f57e99c2a119f37d0[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Sun Jan 6 11:42:05 2019 +0000
+
+    Create Course (minus Sections) working and tested
+
+[33mcommit e547d2d7173aaef39ad63f087805ba339af6d754[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Fri Jan 4 03:41:22 2019 +0000
+
+    create class working
+
+[33mcommit 5d9df675f6c2830038a0de9ca30ba090fb4dc29b[m
+Merge: 068a145 e1be407
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Fri Jan 4 01:19:39 2019 +0000
+
+    Merge branch 'staging' into create_course
+
+[33mcommit 068a1455a7f856f5acf3004c9196c3102c35132c[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Fri Jan 4 01:19:01 2019 +0000
+
+    Updated course_steps.rb
+
+[33mcommit 6a5f3d58c82e4156e7579a02b8f27178713408f8[m
+Merge: d1a5539 e1be407
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Fri Jan 4 00:11:37 2019 +0000
+
+    merged in staging changes
+
+[33mcommit e1be4076096bc074e2cf13bff8776bf28b526562[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Fri Jan 4 08:10:30 2019 +0800
+
+    Ran install of cucumber gems (#19)
+
+[33mcommit d1a55395eb32daf17f38eefbe3360953ab9ce037[m
+Merge: 161f9ad ea97459
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Fri Jan 4 00:06:09 2019 +0000
+
+    Concluded merging
+
+[33mcommit 161f9adae1dafec22e49bc108d371748d65d6e1d[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Fri Jan 4 00:01:44 2019 +0000
+
+    Finished rspec tests for Admin model
+
+[33mcommit ea974597ed5d6faa427789fc7882b4d9b4caf0fb[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Fri Jan 4 08:00:09 2019 +0800
+
+    Add cucumber gems (#18)
+    
+    * Initial model and rspec tests for Create Admin
+    
+    * Finished basic model validation with rspec testing
+    
+    * Adds teh cucumber gems
+
+[33mcommit bce297ee1fda70be5e01d711cec0e48e9451a15a[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 23:52:57 2019 +0000
+
+    Started cucumber definitions
+
+[33mcommit c069f5e6779a745c6676988b3851a7b7703081d1[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 14:41:30 2019 +0000
+
+    View courses -> index page configured
+
+[33mcommit bb5918d5cf016fc09cb4fa710f9b8b85de5e71ba[m
+Merge: b0daaca 13e0faa
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 07:22:17 2019 +0000
+
+    Fixed merge conflict with staging
+
+[33mcommit b0daacacb6585b0367775cb809d3eaafa4e45c05[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 07:19:48 2019 +0000
+
+    fixed some stuff
+
+[33mcommit 6ebf473c85f97debbd56348556ddce84d170d4e8[m
+Merge: 37b1d97 13e0faa
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 3 07:01:20 2019 +0000
+
+    Merges in staging branch changes
+
+[33mcommit 37b1d97db2e4377ba8fd4f8c256e60e9e7cd9617[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 3 06:59:49 2019 +0000
+
+    Finished basic model validation with rspec testing
+
+[33mcommit 13e0faa36d7ff5b2caa83a3ae8a7d996971810d6[m
+Author: Lionell Loh Jian An <lionellloh@gmail.com>
+Date:   Thu Jan 3 14:52:15 2019 +0800
+
+    removed .ideal/*.xml files (#16)
+
+[33mcommit a248b4ac3d7a6c6a8706d9eb502d23791aa8ae46[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Thu Jan 3 14:50:06 2019 +0800
+
+    Create Section: fixed (#17)
+    
+    * Fixed unneeded fields on generate section command
+    
+    * Removed crewcreator_test db file
+
+[33mcommit 403b61c3ee47529f4c75650c3f27930260c74641[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Thu Jan 3 06:46:19 2019 +0000
+
+    Removed crewcreator_test db file
+
+[33mcommit 7991bfa26b5fbabf8e5129e2d30c1cafb44c9780[m
+Author: Alex Le <kawoofish@gmail.com>
+Date:   Thu Jan 3 06:41:20 2019 +0000
+
+    Fixed unneeded fields on generate section command
+
+[33mcommit ebc8b22f1187b9784f8c5450fe07a4dc2a3201c4[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 06:20:40 2019 +0000
+
+    Seed data set and course model outlined
+
+[33mcommit 2276cfa1e6417e9cf032567cdc2c02dd292bf62b[m
+Merge: 62f7e9e f1083ff
+Author: Lionell Loh Jian An <lionellloh@gmail.com>
+Date:   Thu Jan 3 14:12:00 2019 +0800
+
+    Merge pull request #14 from CrewCreator/add_skills
+    
+    skill_spec file + skill.rb
+
+[33mcommit f1083ff52b00bd37e52cb0424b6c718f20840154[m
+Author: lionellloh <lionell_loh@mymail.sutd.edu.sg>
+Date:   Thu Jan 3 12:07:48 2019 +0800
+
+    skill_spec file + skill.rb
+
+[33mcommit a06785081daf30302effc08e99dab2be1b99fd9a[m
+Merge: 2a2e92a 62f7e9e
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 3 04:03:41 2019 +0000
+
+    Merged in from staging
+
+[33mcommit cefa5f62dd92f702da9dfafdfe68c391d95b1846[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Thu Jan 3 11:59:43 2019 +0800
+
+    Staging (#10)
+    
+    * Changed database from sqlite3 to postgress
+    
+    * Changed the database.yml to use postgres
+    
+    * updated gitignore
+    
+    * Updated database for production
+    
+    * fixed quote error
+    
+    * Updated database config for pg prod
+    
+    * Configured RSpec and Cucumber environments for testing
+    
+    * cucumber actually included
+    
+    * Cucumber working and dev deployed
+    
+    * Switches rspec to using rspec_with_rails (#6)
+    
+    * Adds gemfile Shoudla (#7)
+    
+    * Create project (#9)
+    
+    * Updated proper databse ignoring
+    
+    * Initial model and rspec tests for Create Admin (#11)
+    
+    * course validation complete (#8)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+
+[33mcommit 62f7e9e4a44417f534e7dd002481738a13618e17[m
+Merge: 7f4de27 3798aa7
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 3 11:58:34 2019 +0800
+
+    Merge branch 'master' into staging
+
+[33mcommit 7f4de27ca9913491a4a45b40711cb24e4bc7264f[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Thu Jan 3 11:55:56 2019 +0800
+
+    course validation complete (#8)
+    
+    * course validation complete
+    
+    * course validation complete
+    
+    * Removed autogen db files
+    
+    * removed extra migration lines
+
+[33mcommit d67cf987940428e1c10fa9307d1509913e0cf87b[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 03:54:33 2019 +0000
+
+    removed extra migration lines
+
+[33mcommit 7c2c2c090268a62d9b04e018dcd25fade2abeacf[m
+Merge: 22350fa 04f1524
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 03:50:40 2019 +0000
+
+    Merge branch 'staging' into create_course
+
+[33mcommit 2c00ea2759235ea69e47dd07798b5167b7bca0a1[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 3 11:50:38 2019 +0800
+
+    Initial model and rspec tests for Create Admin (#11)
+
+[33mcommit 2a2e92a9b123775540db9c82973b25b632eb8d25[m
+Author: Reed Hampton <reedhampton@tamu.edu>
+Date:   Thu Jan 3 03:46:46 2019 +0000
+
+    Initial model and rspec tests for Create Admin
+
+[33mcommit 04f15247f4f7763d459768380a0178e5c9d03bbb[m
+Author: Nick <ntiner1@tamu.edu>
+Date:   Thu Jan 3 03:45:43 2019 +0000
+
+    Updated proper databse ignoring
+
+[33mcommit 22350fa3bb6e629f6725d1b768b1477d9e4a8d74[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 03:45:09 2019 +0000
+
+    Removed autogen db files
+
+[33mcommit 4ef9fb6e962c77fb2073342a9ba823a09cb6a5ec[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 03:31:20 2019 +0000
+
+    course validation complete
+
+[33mcommit 29c29d547eb673363f4c813dfdb8a773eda7a59c[m
+Author: Nicholas Tiner <ntiner1@tamu.edu>
+Date:   Thu Jan 3 11:31:13 2019 +0800
+
+    Create project (#9)
+
+[33mcommit 769d6d17d717f110d956d4354373dd8b27d0549c[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 3 11:28:55 2019 +0800
+
+    Adds gemfile Shoudla (#7)
+
+[33mcommit aaea3e8c2f4d3f8c15a8c89860ad53dcc947022d[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 03:26:01 2019 +0000
+
+    course validation complete
+
+[33mcommit ea6028b82fe13fca2f2b0abc180ffd28fb804034[m
+Author: Reed Hampton <reed.hampton@gmail.com>
+Date:   Thu Jan 3 10:07:02 2019 +0800
+
+    Switches rspec to using rspec_with_rails (#6)
+
+[33mcommit 3798aa73ba26c2d6358853a620835bff10d2fdbb[m
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Thu Jan 3 09:19:21 2019 +0800
+
+    Staging (#5)
+    
+    * Changed database from sqlite3 to postgress
+    
+    * Changed the database.yml to use postgres
+    
+    * updated gitignore
+    
+    * Updated database for production
+    
+    * fixed quote error
+    
+    * Updated database config for pg prod
+    
+    * Configured RSpec and Cucumber environments for testing
+    
+    * cucumber actually included
+    
+    * Cucumber working and dev deployed
+
+[33mcommit 439647076884ba7e884dd57afb47d3987f8d1a96[m
+Merge: 02c3e23 8486856
+Author: nathanjbrockway <ninjabrockway@gmail.com>
+Date:   Thu Jan 3 09:16:02 2019 +0800
+
+    Merge branch 'master' into staging
+
+[33mcommit 02c3e23aaa5338993d06787cca63fe358da8d65a[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 01:12:34 2019 +0000
+
+    Cucumber working and dev deployed
+
+[33mcommit d00cfad6ca9abf1ed848589e8c2464625c85282b[m
+Merge: d938939 a0c0e5a
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 01:06:58 2019 +0000
+
+    Merge branch 'staging' of https://github.com/CrewCreator/CrewCreator into staging
+
+[33mcommit d938939f01452021923847feb3f009aa1c0e9ee5[m
+Author: nathanjbrockway <nathanjbrockway@gmail.com>
+Date:   Thu Jan 3 01:06:43 2019 +0000
+
+    cucumber actually included
