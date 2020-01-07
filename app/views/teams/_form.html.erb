@@ -41,7 +41,7 @@
   
     <%= label_tag :scrum_time , nil , :class => "mt-4" %>
     <br>
-    <%= form.text_field :scrum_time, id: "datetime_select", placeholder: "06:30", :class => " form-control" %>
+    <%= form.datetime_select :scrum_time, id: "datetime_select", placeholder: "06:30", ampm: true, discard_year: true, discard_month: true, discard_day: true, :class => " form-control" %>
     
     <br><br>
     
