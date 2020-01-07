@@ -1,18 +1,13 @@
 <%= link_to 'Back', home_path, id: 'cancel' , :class => "btn btn-danger mt-3 ml-5"%>
 
 <div class="jumbotron w-50 mx-auto">
-  <%= form_for @student do |f|%>
+  <%= form_for @student, html: { id: "submit" } do |f| %>
   
     <%= render 'layouts/error', object: @student, as: 'object' %>
     
     <%= f.hidden_field :name, :id => "form_name", :class => "form-control"%>
     
     <%= f.hidden_field :email, :id => "form_email", :class => "form-control"%>
-  
-    <% if params[:action] == "edit" %>
-      <%= render "layouts/confirm_update", object: @student, as: 'object' %>
-    <% else %>
-      <%= f.submit "Create Account", :class => "btn btn-primary mt-4" %>
       
       <html lang="en">
         <head>
@@ -31,7 +26,7 @@
               
               document.getElementById('form_name').value = profile.getName();
               document.getElementById('form_email').value = profile.getEmail();
-              f.submit
+              document.getElementById('submit').submit();
             }
           </script>
           
@@ -46,6 +41,12 @@
             </script>
         </body>
       </html>
+      <br>
+    <% if params[:action] == "edit" %>
+      <%= render "layouts/confirm_update", object: @student, as: 'object' %>
+    <% else %>
+      <%= f.submit "Create Account", :class => "btn btn-primary mt-4" %>
+      </br>
     <% end %>
   <% end %>
 </div>

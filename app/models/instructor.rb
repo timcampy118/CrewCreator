@@ -5,7 +5,7 @@ class Instructor < ApplicationRecord
   
   validates_with EmailUniquenessValidator
 
-  validates_presence_of :name, :email, :password
+  validates_presence_of :name, :email
   
   validates_length_of :name , maximum: 50
   validates_length_of :email , maximum: 255

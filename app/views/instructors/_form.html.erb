@@ -11,12 +11,6 @@
     
     <% if params[:action] == "edit" %>
       <%= render "layouts/confirm_update", object: @instructor, as: 'object' %>
-    <% else %>
-      <%= label_tag :password , nil , :class => "mt-4"%>
-      <%= f.password_field :password , :placeholder => "Must contain a digit and a symbol and be >= 8 char" , :class => "form-control" %>
-      
-      <%= f.label "Confirm Password" , nil , :class => "mt-4"%>
-      <%= f.password_field :password_confirmation , :placeholder => "Re-Enter Password" , :class => "form-control" %>
       
       <%= f.submit "Create Account", :class => "btn btn-primary mt-4" %>
     <% end %>

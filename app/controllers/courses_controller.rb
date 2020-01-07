@@ -28,7 +28,7 @@ class CoursesController < ApplicationController
   def update
     id = params[:id]
     @course = Course.find(id)
-    if @current_user = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:course][:email])
+    if @current_user = Admin.find_by_id(session[:user_id])
       if @course.update_attributes(course_params)
         flash[:notice] = "#{@course.code} : #{@course.name} was successfully updated."
         redirect_to :action => 'index'
@@ -49,7 +49,7 @@ class CoursesController < ApplicationController
   
   def destroy
     removed_course = Course.find_by_id(params[:admin][:id])
-    if Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email])
+    if Admin.find_by_id(session[:user_id])
       flash[:notice] = "#{removed_course.code} -- #{removed_course.name} was successfully deleted."
       removed_course.destroy
       redirect_to  courses_path

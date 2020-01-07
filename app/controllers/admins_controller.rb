@@ -30,7 +30,7 @@ class AdminsController < ApplicationController
   end
 
   def update
-    if @current_user = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email])
+    if @current_user = Admin.find_by_id(session[:user_id])
       if @current_user.update_attributes(admin_params_edit)
         flash[:notice] = "#{@current_user.email} -- #{@current_user.name} was successfully updated."
       else
@@ -49,7 +49,7 @@ class AdminsController < ApplicationController
   
   def destroy
     removed_user = Admin.find_by_id(params[:admin][:id])
-    if Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:email])
+    if Admin.find_by_id(session[:user_id])
       Admin.find_by_id(params[:admin][:id]).destroy
       if session[:user_id] == params[:admin][:id]
         flash[:notice] = "#{@current_user.email} -- #{@current_user.name} was successfully deleted. This was your account."
