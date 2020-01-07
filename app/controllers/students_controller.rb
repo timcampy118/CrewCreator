@@ -20,7 +20,7 @@ class StudentsController < ApplicationController
       end
       redirect_to '/home'
     else
-      flash[:warning] = "An account already exists with that email."
+      flash[:warning] = "An account already exists with that email. Click login to continue."
       redirect_to '/login'
     end
   end

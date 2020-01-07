@@ -29,4 +29,8 @@ class SessionsController < ApplicationController
     session[:user] = nil
     redirect_to '/home'
   end
+  
+  def backdoor
+    redirect_to '/sessions/'
+  end
 end
