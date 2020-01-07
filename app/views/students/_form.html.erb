@@ -1,26 +1,13 @@
 <%= link_to 'Back', home_path, id: 'cancel' , :class => "btn btn-danger mt-3 ml-5"%>
 
 <div class="jumbotron w-50 mx-auto">
-  <%= form_for @student do |f| %>
+  <%= form_for @student, html: { id: "submit" } do |f| %>
   
     <%= render 'layouts/error', object: @student, as: 'object' %>
     
-    <%= label_tag :name %>
-    <%= f.text_field :name , :placeholder => "Name" ,  :class => "form-control"  %>
+    <%= f.hidden_field :name, :id => "form_name", :class => "form-control"%>
     
-    <%= label_tag :email , nil , :class => "mt-4" %>
-    <%= f.text_field :email , :placeholder => "Unique Email" ,  :class => "form-control" %>
-  
-    <% if params[:action] == "edit" %>
-      <%= render "layouts/confirm_update", object: @student, as: 'object' %>
-    <% else %>
-      <%= label_tag :password , nil , :class => "mt-4"%>
-      <%= f.password_field :password, :placeholder => "Must contain a digit and a symbol and be >= 8 char" , :class => "form-control" %>
-      
-      <%= f.label "Confirm Password" , nil , :class => "mt-4"%>
-      <%= f.password_field :password_confirmation , :placeholder => "Re-Enter Password" , :class => "form-control" %>
-
-      <%= f.submit "Create Account", :class => "btn btn-primary mt-4" %>
+    <%= f.hidden_field :email, :id => "form_email", :class => "form-control"%>
       
       <html lang="en">
         <head>
@@ -34,19 +21,12 @@
             function onSignIn(googleUser) {
               // Useful data for your client-side scripts:
               var profile = googleUser.getBasicProfile();
-              console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-              console.log('Full Name: ' + profile.getName());
-              console.log('Given Name: ' + profile.getGivenName());
-              console.log('Family Name: ' + profile.getFamilyName());
-              console.log("Image URL: " + profile.getImageUrl());
-              console.log("Email: " + profile.getEmail());
               // The ID token you need to pass to your backend:
-              var id_token = googleUser.getAuthResponse().id_token;
-              console.log("ID Token: " + id_token);
+              // var id_token = googleUser.getAuthResponse().id_token;
               
-              document.getElementById('name').innerHTML = profile.getName();
-              document.getElementById('email').innerHTML = profile.getEmail();
-              
+              document.getElementById('form_name').value = profile.getName();
+              document.getElementById('form_email').value = profile.getEmail();
+              document.getElementById('submit').submit();
             }
           </script>
           
@@ -59,14 +39,14 @@
                 });
               }
             </script>
-          
-          <ul style="list-style-type:none;">
-            <li id="name"></li>
-            <li id="email"></li>
-          </ul>
         </body>
       </html>
-      
+      <br>
+    <% if params[:action] == "edit" %>
+      <%= render "layouts/confirm_update", object: @student, as: 'object' %>
+    <% else %>
+      <%= f.submit "Create Account", :class => "btn btn-primary mt-4" %>
+      </br>
     <% end %>
   <% end %>
 </div>

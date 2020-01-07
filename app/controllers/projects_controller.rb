@@ -59,10 +59,10 @@ class ProjectsController < ApplicationController
   def destroy
     if session[:user] == "admin"
       removed_project = Project.find_by_id(params[:admin][:id])
-      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password])
+      check = Admin.find_by_id(session[:user_id])
     elsif session[:user] == "instructor"
       removed_project = find_project(params[:instructor][:id])
-      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password])
+      check = Instructor.find_by_id(session[:user_id])
     else
       flash[:warning] = "Unauthorized action"
       redirect_to new_session_path
