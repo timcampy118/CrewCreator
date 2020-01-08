@@ -31,6 +31,8 @@ class SessionsController < ApplicationController
   end
   
   def backdoor
-    redirect_to '/sessions/'
+    if current_user
+      redirect_to home_path
+    end
   end
 end
