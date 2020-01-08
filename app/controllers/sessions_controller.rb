@@ -29,10 +29,4 @@ class SessionsController < ApplicationController
     session[:user] = nil
     redirect_to '/home'
   end
-  
-  def backdoor
-    if current_user
-      redirect_to home_path
-    end
-  end
 end
