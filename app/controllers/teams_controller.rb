@@ -1,5 +1,5 @@
 class TeamsController < ApplicationController
-  before_action :super_access, only: [:new , :create, :remove, :destroy]
+  before_action :super_access, only: [:remove, :destroy]
   before_action :find_project, only: [:new, :create]
   
   def index
@@ -105,14 +105,14 @@ class TeamsController < ApplicationController
   end
   
   private def check_super_in_section(section)
-    unless has_section_html(section)
+    unless is_student_in_section(current_user,section)
       flash[:warning] = "Unauthorized action"
       redirect_to home_path
     end
   end
   
   private def is_admin_or_student_on_team(team)
-    unless is_student_on_team(current_user, team) || has_section_html(team.project.section)
+    unless is_student_on_team(current_user, team) || is_student(team.project.section)
       flash[:warning] = "Unauthorized action"
       redirect_to home_path
     end

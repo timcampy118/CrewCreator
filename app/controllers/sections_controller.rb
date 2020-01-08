@@ -1,5 +1,5 @@
 class SectionsController < ApplicationController
-  before_action :super_access, only: [:new, :create, :edit, :update, :remove, :destroy, :update_roster]
+  before_action :super_access, only: [:new, :edit, :update, :remove, :destroy, :update_roster]
   before_action :is_student, only: [:join, :leave] #[:new, :create, :edit, :update, :remove, :destroy, :roster, :update_roster]#
   before_action :is_user, only: [:roster]
   
@@ -65,10 +65,10 @@ class SectionsController < ApplicationController
   def destroy 
     if session[:user] == "admin"
       @section = find_section(params[:id])
-      check = Admin.find_by_id(session[:user_id])
+      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password])
     elsif session[:user] == "instructor"
       @section = find_section(params[:id])
-      check = Instructor.find_by_id(session[:user_id])
+      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password])
     else
       flash[:warning] = "Unauthorized action"
       redirect_to home_path
