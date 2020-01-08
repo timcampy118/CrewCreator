@@ -47,7 +47,7 @@
 <%= link_to 'Cancel', section_projects_path(@section), id: 'cancel', :class => "btn btn-danger ml-5"%>
 
 <div class="jumbotron w-50 mx-auto">
-  <%= form_for @section, url: {action: "update_roster"}, method: :patch do |form| %>
+  <%= form_for @section, url: {action: "roster"}, method: :patch do |form| %>
   
     <%= render 'layouts/error', object: @section, as: 'object' %>
   
