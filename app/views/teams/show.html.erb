@@ -62,7 +62,10 @@
     </div>
     <div class="card-body">
        <a class="disabled"><strong>Location:</strong> <%= @team.scrum_location %></a>
-       <a class="disabled"><strong>Time:</strong> <%= @team.scrum_time.strftime("%I:%M%p") %></a>
+       <a class="disabled"><strong>Time:</strong> <%= @team.scrum_time.strftime("at %I:%M%p") %></a>
+       
+       
+       
     </div>
   </div>
 </div>
