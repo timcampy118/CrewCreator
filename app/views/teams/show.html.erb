@@ -3,7 +3,7 @@
 <% if has_section_html(@team.project.section.id) || is_student_in_section(current_user, @team.project.section) #is_student_on_team(current_user, @team) %>
   <%= link_to 'Edit Team' , edit_team_path(@team), class: "btn btn-danger float-right mt-5 mr-5"%>
 <% end %>
-<% if has_section_html(@team.project.section.id) %>
+<% if is_instructor_html || has_section_html(@team.project.section.id) %>
     <%= link_to "Delete Team", remove_team_path(@team), class: "btn btn-danger float-right mt-5 mr-5" %>
 <% end %>
 

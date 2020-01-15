@@ -6,7 +6,7 @@ class TeamsController < ApplicationController
     if is_instructor_html
       @section = Instructor.find_by_id(session[:user_id]).sections.find_by_id(params[:section_id])
       if @section == nil
-        flash[:warning] = "Unauthorized action"
+        flash[:warning] = "Session is Nil"
         redirect_to new_session_path
       end
     else
@@ -61,7 +61,7 @@ class TeamsController < ApplicationController
   
   def remove
     @team = Team.find_by_id(params[:id])
-    check_super_in_section(@team.project.section)
+    is_super(@team.project.section)
   end
   
   def destroy
@@ -72,7 +72,7 @@ class TeamsController < ApplicationController
       removed_team = Team.find_by_id(params[:instructor][:id])
       check = Instructor.find_by_id(session[:user_id])
     else
-      flash[:warning] = "Unauthorized action"
+      flash[:warning] = "You are not a Admin or Instructor"
       redirect_to home_path
     end
     
@@ -105,7 +105,14 @@ class TeamsController < ApplicationController
   end
   
   private def check_super_in_section(section)
-    unless is_student_in_section(current_user,section)
+    unless is_student_in_section(current_user,section) || has_section_html(section)
+      flash[:warning] = "Unauthorized action"
+      redirect_to home_path
+    end
+  end
+  
+  private def is_super(section)
+    unless has_section_html(section)
       flash[:warning] = "Unauthorized action"
       redirect_to home_path
     end

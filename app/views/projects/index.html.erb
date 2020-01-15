@@ -38,10 +38,10 @@
             <h5 class="card-title d-inline"><%= project.name %></h5>
           </div>
           <div class="col">
-            <% if is_student_in_section(current_user, @section) %>
+            <% if is_student_in_section(current_user, @section) ||  has_section_html(project.section.id) %>
               <%= link_to 'Add Team', new_project_team_path(project), id: "add-team" , :class => "btn btn-success ml-2 d-inline-block" %>
               <%end%>
-              <% if has_section_html(project.section.id) %>
+            <% if has_section_html(project.section.id) %>
               <%= link_to 'Edit', edit_project_path(project) , :class => "btn btn-warning ml-2 d-inline-block" %>
               <%= link_to 'Delete', remove_project_path(project) , :class => "btn btn-danger ml-2 d-inline-block" %>
             <% end %>
