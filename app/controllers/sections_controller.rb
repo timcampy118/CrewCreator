@@ -26,11 +26,20 @@ class SectionsController < ApplicationController
         if instructor
           @section.instructors << instructor
         end
+        
       end
       if is_instructor_html
         user = Instructor.find_by_id(session[:user_id])
         user.sections << @section
       end
+      
+      
+        student_id = params[:section][:student_ids]
+        student = Student.find_by_id(student_id)
+        if student
+          @section.instructor << student
+        end
+      
       redirect_to courses_path
     else
       render 'new'
@@ -65,10 +74,10 @@ class SectionsController < ApplicationController
   def destroy 
     if session[:user] == "admin"
       @section = find_section(params[:id])
-      check = Admin.find_by_id(session[:user_id]).try(:authenticate, params[:admin][:password])
+      check = is_admin_html
     elsif session[:user] == "instructor"
       @section = find_section(params[:id])
-      check = Instructor.find_by_id(session[:user_id]).try(:authenticate, params[:instructor][:password])
+      check = is_instructor_html && current_user.sections.find_by_id(session[:user_id])
     else
       flash[:warning] = "Unauthorized action"
       redirect_to home_path
@@ -78,14 +87,12 @@ class SectionsController < ApplicationController
       @section.destroy
       redirect_to courses_path
     else
-      flash[:warning] = "Incorrect Password!"
+      flash[:warning] = "This should never happened"
       redirect_to :action => 'remove', :id => params[:id], :method => :get
     end 
-  end 
-  
-  def roster
-    @section = find_section(params[:section_id])
   end
+  
+  
   
   def update_roster
     @section = find_section(params[:section_id])
