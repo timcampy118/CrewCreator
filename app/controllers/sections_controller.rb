@@ -204,6 +204,12 @@ class SectionsController < ApplicationController
     end
   end
   
+  
+  def roster
+    @section = find_section(params[:section_id])
+  end
+  
+  
   private def find_section(id)
     if is_instructor_html
       @section = Instructor.find_by_id(session[:user_id]).sections.find_by_id(id)
