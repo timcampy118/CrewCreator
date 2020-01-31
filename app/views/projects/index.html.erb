@@ -10,6 +10,8 @@
 <%= i.name %>
 <% end %>
 </h2>
+<br>
+</h2>
 <% if is_student_html && !is_student_in_section(current_user, @section) %>
   <%= link_to 'Join Section' , section_join_path(@section), method: :post, id: "join_section_#{@section.number}" , class: "btn btn-success float-right mt-5 mr-5" %>
 <% end %>
@@ -17,6 +19,7 @@
 <% if is_student_in_section(current_user, @section) %>
   <p class="d-inline text-muted ml-4">Currently registered</p>
   <%= link_to 'Leave Section' , section_leave_path(@section), method: :patch, id: "leave_section_#{@section.number}" , class: "btn btn-danger float-right mt-5 mr-5" %>
+  <%= link_to 'Adjust Roster' , section_roster_path(@section), id: "roster_section_#{@section.number}" , class: "btn btn-success float-right mt-4 mr-5" %>
 <% end %>
 
 <hr>
@@ -37,8 +40,10 @@
             <h5 class="card-title d-inline"><%= project.name %></h5>
           </div>
           <div class="col">
-            <% if has_section_html(project.section.id) %>
+            <% if is_student_in_section(current_user, @section) ||  has_section_html(project.section.id) %>
               <%= link_to 'Add Team', new_project_team_path(project), id: "add-team" , :class => "btn btn-success ml-2 d-inline-block" %>
+              <%end%>
+            <% if has_section_html(project.section.id) %>
               <%= link_to 'Edit', edit_project_path(project) , :class => "btn btn-warning ml-2 d-inline-block" %>
               <%= link_to 'Delete', remove_project_path(project) , :class => "btn btn-danger ml-2 d-inline-block" %>
             <% end %>
@@ -75,6 +80,13 @@
               <% else %>
                 <a class="btn btn-info">Team Management</a>
               <% end %>
+              <br></br>
+<div class="progress">
+  <div class="progress-bar bg-success" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-danger" role="progressbar" style="width: 43%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+
               <hr>
           <% end %>
         </div>

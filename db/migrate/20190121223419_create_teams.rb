@@ -7,7 +7,7 @@ class CreateTeams < ActiveRecord::Migration[5.1]
       t.string :production_link
       t.string :management_link
       t.string :scrum_location
-      t.datetime :scrum_time
+      t.string :scrum_time
 
       t.timestamps
     end

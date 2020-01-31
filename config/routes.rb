@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   get 'home', to: 'home#index', as: 'home'
+  get 'backdoor', to: 'sessions#backdoor', as: 'backdoor'
   
   resources :home, only: [:index]
     root :to => redirect('/home')
@@ -20,6 +21,7 @@ Rails.application.routes.draw do
     get 'projects/:id/remove', to: 'projects#remove', as: 'remove_project'
     get 'teams/:id/remove', to: 'teams#remove', as: 'remove_team'
     
+    get 'sections/:section_id/requests', to: 'sections#requests', as: 'section_requests'
     get 'sections/:section_id/teams', to: 'teams#index', as: 'section_teams'
     get 'sections/:section_id/roster', to: 'sections#roster', as: 'section_roster'
     patch 'sections/:section_id/update_roster', to: 'sections#update_roster'
@@ -41,8 +43,10 @@ Rails.application.routes.draw do
     post 'students/:id', to: 'students#update', as: 'update_student'
     get 'students/:id/remove', to: 'students#remove', as: 'remove_student'
     
-  resources :sessions, only: [:new, :create, :destroy]
+  resources :sessions, only: [:new, :create, :destroy, :backdoor]
     get 'login', to: 'sessions#new', as: 'login'
     get 'logout', to: 'sessions#destroy', as: 'logout'
+
+  
 
 end

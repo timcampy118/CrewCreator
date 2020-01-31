@@ -3,7 +3,7 @@
 <div class='jumbotron w-50 mx-auto'>
   <%= form_tag sessions_path do |form| %>
     <div class='field'>
-      <%= hidden_field_tag :email , nil , :id => "form_email", :class => "form-control" , :placeholder => "name@example.com" %>
+      <%= text_field_tag :email , nil , :id => "form_email", :class => "form-control" , :placeholder => "name@example.com" %>
     </div>
     
     <html lang="en">

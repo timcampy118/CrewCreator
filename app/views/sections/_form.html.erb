@@ -12,6 +12,14 @@
       <%= form.select :instructor_ids, Instructor.all.collect {|i| [i.name, i.id]}, :prompt => "Select" %>
       <% end %>
       <br>
+      <% if is_admin_html || is_instructor_html %>
+      <%= label_tag :students_Instructors, nil , :class => "mt-4" %>
+      <%= form.select :student_ids, Student.all.collect {|i| [i.name, i.id]}, :prompt => "Select" %>
+      <% end %>
+      
+      
+      
+      <br>
 
       <%= label_tag :semester , nil , :class => "mt-4" %>
       <br>

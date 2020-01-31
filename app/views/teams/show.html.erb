@@ -1,9 +1,9 @@
 <br>
 <h1 class="display-4 mt-5 ml-5 d-inline">Team: <%=@team.name%></h1>
-<% if has_section_html(@team.project.section.id) || is_student_on_team(current_user, @team) %>
+<% if has_section_html(@team.project.section.id) || is_student_in_section(current_user, @team.project.section) #is_student_on_team(current_user, @team) %>
   <%= link_to 'Edit Team' , edit_team_path(@team), class: "btn btn-danger float-right mt-5 mr-5"%>
 <% end %>
-<% if has_section_html(@team.project.section.id) %>
+<% if is_instructor_html || has_section_html(@team.project.section.id) %>
     <%= link_to "Delete Team", remove_team_path(@team), class: "btn btn-danger float-right mt-5 mr-5" %>
 <% end %>
 
@@ -62,7 +62,154 @@
     </div>
     <div class="card-body">
        <a class="disabled"><strong>Location:</strong> <%= @team.scrum_location %></a>
-       <a class="disabled"><strong>Time:</strong> <%= @team.scrum_time %></a>
+       <a class="disabled"><strong>Time:</strong> <%= @team.scrum_time.strftime("at %I:%M%p") %></a>
+       
+       
+       
     </div>
   </div>
 </div>
+
+<div class="container text-center">
+  
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: center;
+}
+</style>
+
+
+
+
+
+
+<body>
+
+
+<% if is_instructor_html() %>
+
+<table style="width:100%">
+  
+   <tr>
+    <th></th>
+    <th>Iteration 0</th>
+    <th>Iteration 1</th>
+    <th>Iteration 2</th>
+  </tr>
+  
+  <tr>
+    <th>Student</th>
+    <th>Missing</th>
+    <th>Missing</th>
+    <th>Missing</th>
+  </tr>
+  <tr>
+    <th>Instructor</th>
+    <th>    
+        <select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Approved</option> 
+            <option value="2">Inadequate</option> 
+        </select>  
+    </th>
+    <th>
+      <select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Approved</option> 
+            <option value="2">Inadequate</option> 
+        </select>  
+    </th>
+    <th>
+      <select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Approved</option> 
+            <option value="2">Inadequate</option> 
+      </select>  
+    </th>
+  </tr>
+</table>
+
+<% else if is_student_on_team(current_user, @team) %>
+
+   <table style="width:100%">
+
+   <tr>
+    <th></th>
+    <th>Iteration 0</th>
+    <th>Iteration 1</th>
+    <th>Iteration 2</th>
+  </tr>
+
+  <tr>
+    <th>Student</th>
+        <th>    
+<body> 
+    <div> 
+        <select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Submitted</option> 
+        </select>  
+    </div> 
+</body>
+    </th>
+    <th><select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Submitted</option> 
+        </select>  </th>
+    <th><select id="select">                                              
+            <option value="0">Missing</option> 
+            <option value="1">Submitted</option> 
+        </select>  </th>
+        
+        <tr>
+    <th>Instructor</th>
+    <th>Missing</th>
+    <th>Missing</th>
+    <th>Missing</th>
+  </tr>
+
+
+</div>
+
+</table>
+<% else %>
+
+   <table style="width:100%">
+
+   <tr>
+    <th></th>
+    <th>Iteration 0</th>
+    <th>Iteration 1</th>
+    <th>Iteration 2</th>
+  </tr>
+
+<tr>
+    <th>Student</th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+  </tr>
+    <tr>
+    <th>Instructor</th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+    <th>    Missing
+    </th>
+  </tr>
+</table>
+
+
+
+
+<% end %>
+<% end %>
+
+</body>

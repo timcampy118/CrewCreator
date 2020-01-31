@@ -17,14 +17,14 @@
         </ul>
     <% end %>
     
-    <% if super_access_html %>
+   
       <br><%= form.label "Add/Remove Students" %><br>
       <% if params[:action] == "new" %>
         <%= form.collection_check_boxes :student_ids, @project.section.students, :id, :email %>
       <% else %>
         <%= form.collection_check_boxes :student_ids, @team.project.section.students, :id, :email %>
         <% end %>
-    <% end %>
+    
 
     <br>
     <%= label_tag :version_control_link , nil , :class => "mt-4" %>
@@ -41,7 +41,7 @@
   
     <%= label_tag :scrum_time , nil , :class => "mt-4" %>
     <br>
-    <%= form.datetime_select(:scrum_time) %>
+    <%= form.datetime_select :scrum_time, id: "datetime_select", placeholder: "06:30", ampm: true, discard_year: true, discard_month: true, discard_day: true, :class => " form-control" %>
     
     <br><br>
     
