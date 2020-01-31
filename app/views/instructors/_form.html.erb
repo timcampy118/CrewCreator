@@ -12,7 +12,8 @@
     <% if params[:action] == "edit" %>
       <%= render "layouts/confirm_update", object: @instructor, as: 'object' %>
       
-      <%= f.submit "Create Account", :class => "btn btn-primary mt-4" %>
+      <%= f.submit :id => "create", :class => "btn btn-primary mt-4" %>
+      
     <% end %>
   <% end %>
 </div>

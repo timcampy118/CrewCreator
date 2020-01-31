@@ -1,0 +1,25 @@
+<% if is_instructor_html() %>
+
+<div class="jumbotron w-50 mx-auto">
+  <%= form_for @section, url: {action: "requests"}, multipart: true, method: :post do |form| %>
+    <h3>Section <%= @section.number %> Join Requests</h3>
+    <%= render 'layouts/error', object: @section, as: 'object' %>
+    
+
+    ericanderson@tamu.edu
+    <%= form.submit "Accept", :class => "btn btn-success mt-4" %>
+	<%= form.submit "Deny", :class => "btn btn-danger mt-4" %>
+	<br>
+	timothynguyen@tamu.edu
+    <%= form.submit "Accept", :class => "btn btn-success mt-4" %>
+	<%= form.submit "Deny", :class => "btn btn-danger mt-4" %>
+	<br>
+	z@tamu.edu
+    <%= form.submit "Accept", :class => "btn btn-success mt-4" %>
+	<%= form.submit "Deny", :class => "btn btn-danger mt-4" %>
+
+  <% end %>
+</div>
+
+
+<%end%>

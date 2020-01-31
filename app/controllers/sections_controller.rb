@@ -1,5 +1,5 @@
 class SectionsController < ApplicationController
-  before_action :super_access, only: [:new, :edit, :update, :remove, :destroy, :update_roster]
+  before_action :super_access, only: [:new, :edit, :update, :remove, :destroy, :update_roster, :requests]
   before_action :is_student, only: [:join, :leave] #[:new, :create, :edit, :update, :remove, :destroy, :roster, :update_roster]#
   before_action :is_user, only: [:roster]
   
@@ -161,6 +161,12 @@ class SectionsController < ApplicationController
     end
   end
   
+  def requests
+    @section = find_section(params[:section_id])
+    #@section.email = find_by_email(params[:section][:emails_attributes])
+    #@email = Email.find_by_id(email_atr[1])
+  end
+
   def join
     @section = Section.find(params[:section_id])
     @student = current_user

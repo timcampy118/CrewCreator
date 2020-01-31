@@ -21,6 +21,7 @@ Rails.application.routes.draw do
     get 'projects/:id/remove', to: 'projects#remove', as: 'remove_project'
     get 'teams/:id/remove', to: 'teams#remove', as: 'remove_team'
     
+    get 'sections/:section_id/requests', to: 'sections#requests', as: 'section_requests'
     get 'sections/:section_id/teams', to: 'teams#index', as: 'section_teams'
     get 'sections/:section_id/roster', to: 'sections#roster', as: 'section_roster'
     patch 'sections/:section_id/update_roster', to: 'sections#update_roster'
